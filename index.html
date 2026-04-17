@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hardedge Cafe – Penge, London</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo">Hardedge Café</a>
+      <ul class="nav__links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Visit Us</a></li>
+      </ul>
+      <button class="nav__burger" id="burger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__tag">Est. Penge, London</span>
+      <h1 class="hero__title">Hardedge Café</h1>
+      <p class="hero__sub">Honest food. Friendly faces. Heart of SE20.</p>
+      <div class="hero__actions">
+        <a href="#menu" class="btn btn--primary">See Our Menu</a>
+        <a href="#contact" class="btn btn--outline">Find Us</a>
+      </div>
+      <div class="hero__rating">
+        <div class="stars">★★★★★</div>
+        <span>4.3 / 5 &nbsp;·&nbsp; 68 Google Reviews</span>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span>scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__text">
+          <span class="label">Our Story</span>
+          <h2>A neighbourhood<br />gem in Penge</h2>
+          <p>Hardedge Café has been a beloved fixture on 113 High Street for years. Run by passionate owner <strong>Mehdi</strong> and a warm team, we serve home-cooked food with big portions, fair prices and a relaxed atmosphere that keeps locals coming back day after day.</p>
+          <p>From the legendary Full Monty breakfast to homemade quiche, fresh omelettes and rich pasta — everything is cooked with care and served with a smile.</p>
+          <div class="about__badges">
+            <div class="badge"><span class="badge__icon">🍳</span><span>Home-cooked</span></div>
+            <div class="badge"><span class="badge__icon">💷</span><span>£10–20 per person</span></div>
+            <div class="badge"><span class="badge__icon">📍</span><span>Penge, SE20</span></div>
+          </div>
+        </div>
+        <div class="about__visual">
+          <div class="about__card about__card--1">
+            <div class="about__card-inner">
+              <span class="stat">68</span>
+              <span class="stat-label">Google reviews</span>
+            </div>
+          </div>
+          <div class="about__card about__card--2">
+            <div class="about__card-inner">
+              <span class="stat">4.3★</span>
+              <span class="stat-label">Average rating</span>
+            </div>
+          </div>
+          <div class="about__card about__card--3">
+            <div class="about__card-inner">
+              <span class="stat">Years</span>
+              <span class="stat-label">Serving Penge</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU HIGHLIGHTS -->
+  <section class="menu" id="menu">
+    <div class="container">
+      <span class="label label--light">What We Serve</span>
+      <h2 class="section-title">Menu Highlights</h2>
+      <p class="section-sub">Fresh, honest, generous — here are some of our most-loved dishes.</p>
+      <div class="menu__grid">
+        <div class="menu-card">
+          <div class="menu-card__icon">🥚</div>
+          <h3>Full Monty Breakfast</h3>
+          <p>The café's signature — a complete English breakfast that always hits the spot. Includes toast and your choice of hot drink.</p>
+          <span class="menu-card__tag">Breakfast</span>
+        </div>
+        <div class="menu-card menu-card--featured">
+          <div class="menu-card__icon">🥧</div>
+          <h3>Homemade Quiche</h3>
+          <p>Made fresh in-house — never mass produced. A customer favourite that sells out fast. Rich, flaky and absolutely delicious.</p>
+          <span class="menu-card__tag">Fan Favourite</span>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card__icon">🍳</div>
+          <h3>Mushroom Omelette</h3>
+          <p>Fluffy omelette filled with mushrooms and roasted vegetables. Great quality and generous portions every time.</p>
+          <span class="menu-card__tag">Breakfast / Lunch</span>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card__icon">🐔</div>
+          <h3>Half Grilled Chicken</h3>
+          <p>Perfectly grilled, tender and full of flavour. A must-try according to regulars who keep coming back for more.</p>
+          <span class="menu-card__tag">Mains</span>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card__icon">🍝</div>
+          <h3>Penne Pasta</h3>
+          <p>Simple, hearty penne that speaks for itself. "The pasta penne just by itself is great" — Ana G, regular customer.</p>
+          <span class="menu-card__tag">Mains</span>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card__icon">🥙</div>
+          <h3>Sweet Chilli Chicken Wrap</h3>
+          <p>A quick, flavourful wrap packed with grilled chicken and sweet chilli sauce. Described by customers as "a must try".</p>
+          <span class="menu-card__tag">Wraps</span>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card__icon">🥪</div>
+          <h3>Grilled Cheese Ciabatta</h3>
+          <p>Crispy ciabatta with melted cheese — simple, satisfying perfection. A café classic done right.</p>
+          <span class="menu-card__tag">Sandwiches</span>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card__icon">🍔</div>
+          <h3>Burger &amp; Chips</h3>
+          <p>Great value takeaway burger — quality ingredients, generous portion of chips. A real crowd pleaser.</p>
+          <span class="menu-card__tag">Mains</span>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card__icon">☕</div>
+          <h3>Coffee &amp; Drinks</h3>
+          <p>Freshly brewed coffee, hot teas, fresh orange juice and more. "Best coffee in town" according to one loyal customer.</p>
+          <span class="menu-card__tag">Drinks</span>
+        </div>
+      </div>
+      <p class="menu__note">Substitutions available on request &nbsp;·&nbsp; Vegetarian options available</p>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <span class="label">What Our Customers Say</span>
+      <h2 class="section-title">Google Reviews</h2>
+      <div class="reviews__summary">
+        <div class="reviews__score">4.3</div>
+        <div class="reviews__summary-right">
+          <div class="stars stars--lg">★★★★★</div>
+          <span>Based on 68 Google reviews</span>
+          <div class="reviews__bar-wrap">
+            <div class="reviews__bar-row"><span>5★</span><div class="bar"><div class="bar__fill" style="width:60%"></div></div></div>
+            <div class="reviews__bar-row"><span>4★</span><div class="bar"><div class="bar__fill" style="width:20%"></div></div></div>
+            <div class="reviews__bar-row"><span>3★</span><div class="bar"><div class="bar__fill" style="width:10%"></div></div></div>
+            <div class="reviews__bar-row"><span>2★</span><div class="bar"><div class="bar__fill" style="width:5%"></div></div></div>
+            <div class="reviews__bar-row"><span>1★</span><div class="bar"><div class="bar__fill" style="width:5%"></div></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviews__grid" id="reviews-grid">
+
+        <article class="review-card">
+          <div class="review-card__header">
+            <div class="review-card__avatar">P</div>
+            <div>
+              <strong>Philip Fabo</strong>
+              <div class="stars">★★★★★</div>
+            </div>
+            <span class="review-card__date">6 months ago</span>
+          </div>
+          <p>"The food in Hardedge is amazing — well cooked and tastes delicious. The service is great, not only are they polite but they listen and give exactly what you ordered. I used to get the Full Monty and it always hit the spot."</p>
+          <span class="review-card__tag">Dine in · Lunch · £10–20</span>
+        </article>
+
+        <article class="review-card review-card--highlight">
+          <div class="review-card__header">
+            <div class="review-card__avatar review-card__avatar--gold">V</div>
+            <div>
+              <strong>Villia Ho</strong>
+              <small>Local Guide · 95 reviews</small>
+              <div class="stars">★★★★★</div>
+            </div>
+            <span class="review-card__date">a year ago</span>
+          </div>
+          <p>"Small and cozy cafe with yummy food. We ordered homemade quiche and omelette with mushrooms and roasted veggies. Both quality and quantity were excellent. Would love to go back to try some more good food."</p>
+          <span class="review-card__tag">Dine in · Lunch · £10–20</span>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__header">
+            <div class="review-card__avatar">J</div>
+            <div>
+              <strong>James O'Hara</strong>
+              <div class="stars">★★★★★</div>
+            </div>
+            <span class="review-card__date">3 months ago</span>
+          </div>
+          <p>"Great cafe, excellent food at good prices. One of the best places in Penge to eat. Lovely relaxed atmosphere."</p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__header">
+            <div class="review-card__avatar">T</div>
+            <div>
+              <strong>The Travel Mom</strong>
+              <small>Local Guide · 154 reviews</small>
+              <div class="stars">★★★★★</div>
+            </div>
+            <span class="review-card__date">2 years ago</span>
+          </div>
+          <p>"Been attending here for years, love the owners, very pleasant... food is delicious and the service is very friendly."</p>
+          <span class="review-card__tag">Dine in · Brunch · £10–20</span>
+        </article>
+
+        <article class="review-card review-card--highlight">
+          <div class="review-card__header">
+            <div class="review-card__avatar review-card__avatar--gold">J</div>
+            <div>
+              <strong>James Gill</strong>
+              <small>Local Guide · 43 reviews</small>
+              <div class="stars">★★★★★</div>
+            </div>
+            <span class="review-card__date">8 years ago</span>
+          </div>
+          <p>"I've had fry-ups all over London. This place is one of the best. Love it. Friendly staff, great food and awesome value (£6 for English breakfast plus toast plus hot drink plus orange. Er, hello?!?)."</p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__header">
+            <div class="review-card__avatar">L</div>
+            <div>
+              <strong>Lydia Lyle</strong>
+              <small>Local Guide · 38 reviews</small>
+              <div class="stars">★★★★★</div>
+            </div>
+            <span class="review-card__date">3 years ago</span>
+          </div>
+          <p>"Definitely recommend this café! The portion sizes are big, get your money's worth. The service was very quick and there was only ONE person doing everything! The food was delicious and filling, they even offer substitutes."</p>
+          <span class="review-card__tag">Breakfast · £10–20</span>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__header">
+            <div class="review-card__avatar">S</div>
+            <div>
+              <strong>Sue Prosser</strong>
+              <small>Local Guide · 79 reviews</small>
+              <div class="stars">★★★★★</div>
+            </div>
+            <span class="review-card__date">4 years ago</span>
+          </div>
+          <p>"I had a lovely omelette with salad and a nice strong mug of tea. Large portions, and well cooked. Very friendly independent café, will definitely call again if in the area."</p>
+        </article>
+
+        <article class="review-card review-card--highlight">
+          <div class="review-card__header">
+            <div class="review-card__avatar review-card__avatar--gold">D</div>
+            <div>
+              <strong>David George</strong>
+              <small>Local Guide · 108 reviews</small>
+              <div class="stars">★★★★★</div>
+            </div>
+            <span class="review-card__date">a year ago</span>
+          </div>
+          <p>"Now this place I enjoyed, lovely couple, lovely food at very reasonable prices."</p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__header">
+            <div class="review-card__avatar">S</div>
+            <div>
+              <strong>Siman Si</strong>
+              <div class="stars">★★★★★</div>
+            </div>
+            <span class="review-card__date">a year ago</span>
+          </div>
+          <p>"Me and my kids love this place. Amazing food and they are so welcoming too."</p>
+          <span class="review-card__tag">Lunch · £1–10</span>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__header">
+            <div class="review-card__avatar">A</div>
+            <div>
+              <strong>Ana Gomez</strong>
+              <div class="stars">★★★★★</div>
+            </div>
+            <span class="review-card__date">4 years ago</span>
+          </div>
+          <p>"5 star because the food is always good — my favourite cafe in Penge. The pasta penne just by itself is great but the sweet chilli chicken wrap is a must try. Thanks, keep up the great service."</p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__header">
+            <div class="review-card__avatar">J</div>
+            <div>
+              <strong>judo lea</strong>
+              <small>Local Guide · 154 reviews</small>
+              <div class="stars">★★★★★</div>
+            </div>
+            <span class="review-card__date">4 years ago</span>
+          </div>
+          <p>"This place is great, chef was very good. Great quality breakfast and very pleasant staff. Great breakfast even by London standards."</p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__header">
+            <div class="review-card__avatar">E</div>
+            <div>
+              <strong>EVOLUTION LINGUISTICS LTD</strong>
+              <small>Local Guide · 68 reviews</small>
+              <div class="stars">★★★★★</div>
+            </div>
+            <span class="review-card__date">4 years ago</span>
+          </div>
+          <p>"Very nice place. Great, hard working management. As good as Costa, better even, for a fraction of the price. Excellent."</p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__header">
+            <div class="review-card__avatar">K</div>
+            <div>
+              <strong>Karen Planson</strong>
+              <small>Local Guide · 30 reviews</small>
+              <div class="stars">★★★★★</div>
+            </div>
+            <span class="review-card__date">4 years ago</span>
+          </div>
+          <p>"Always friendly and lovely coffee. Good value. Always meet my friends there."</p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__header">
+            <div class="review-card__avatar">L</div>
+            <div>
+              <strong>Lucy Banks</strong>
+              <small>Local Guide · 53 reviews</small>
+              <div class="stars">★★★★★</div>
+            </div>
+            <span class="review-card__date">a year ago</span>
+          </div>
+          <p>"Amazing quiche!"</p>
+          <span class="review-card__tag">Lunch</span>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__header">
+            <div class="review-card__avatar">M</div>
+            <div>
+              <strong>Moira Mulholland</strong>
+              <small>Local Guide · 21 reviews</small>
+              <div class="stars">★★★★★</div>
+            </div>
+            <span class="review-card__date">4 years ago</span>
+          </div>
+          <p>"Best coffee in town."</p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__header">
+            <div class="review-card__avatar">D</div>
+            <div>
+              <strong>Dan Greenwood</strong>
+              <small>Local Guide · 67 reviews</small>
+              <div class="stars">★★★★★</div>
+            </div>
+            <span class="review-card__date">4 years ago</span>
+          </div>
+          <p>"Really great burger and chips to take away, good value for money and quality."</p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__header">
+            <div class="review-card__avatar">L</div>
+            <div>
+              <strong>Lyn Porter</strong>
+              <div class="stars">★★★★★</div>
+            </div>
+            <span class="review-card__date">6 years ago</span>
+          </div>
+          <p>"Lovely scrambled eggs with smoked salmon and fresh hot tea costing princely sum of £5.70!"</p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__header">
+            <div class="review-card__avatar">C</div>
+            <div>
+              <strong>Cathy Robinson</strong>
+              <small>Local Guide · 289 reviews</small>
+              <div class="stars">★★★★★</div>
+            </div>
+            <span class="review-card__date">2 years ago</span>
+          </div>
+          <p>"Lovely food, great ambiance, enjoyed lunch and will return to this cosy corner."</p>
+          <span class="review-card__tag">Dine in · Brunch</span>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__header">
+            <div class="review-card__avatar">S</div>
+            <div>
+              <strong>Suhail Butt</strong>
+              <small>Local Guide · 22 reviews</small>
+              <div class="stars">★★★★★</div>
+            </div>
+            <span class="review-card__date">3 years ago</span>
+          </div>
+          <p>"Always fantastic experience! Owners always working hard! Keep up the hard work."</p>
+          <span class="review-card__tag">Breakfast · £1–10</span>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__header">
+            <div class="review-card__avatar">B</div>
+            <div>
+              <strong>Brian Hanrahan O'Hanrahan</strong>
+              <small>Local Guide · 1,052 reviews</small>
+              <div class="stars">★★★★★</div>
+            </div>
+            <span class="review-card__date">6 years ago</span>
+          </div>
+          <p>"Been coming here for a few years now. Always a pleasure."</p>
+        </article>
+
+      </div>
+
+      <div class="reviews__more">
+        <button class="btn btn--outline" id="load-more">Load More Reviews</button>
+      </div>
+
+      <div class="reviews__hidden" id="reviews-hidden" style="display:none">
+
+        <article class="review-card">
+          <div class="review-card__header">
+            <div class="review-card__avatar">D</div>
+            <div>
+              <strong>D Dompizzinat</strong>
+              <small>Local Guide · 33 reviews</small>
+              <div class="stars">★★★★★</div>
+            </div>
+            <span class="review-card__date">8 years ago</span>
+          </div>
+          <p>"Great food! Ultra fast service! Excellent lasagne, grilled cheese sandwiches are yummy — especially with ciabatta! The quiche is delicious. Very good coffee as well."</p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__header">
+            <div class="review-card__avatar">S</div>
+            <div>
+              <strong>Susie</strong>
+              <small>Local Guide · 63 reviews</small>
+              <div class="stars">★★★★★</div>
+            </div>
+            <span class="review-card__date">4 years ago</span>
+          </div>
+          <p>"Really tasty food... Great service."</p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__header">
+            <div class="review-card__avatar">P</div>
+            <div>
+              <strong>Paul James</strong>
+              <small>Local Guide · 81 reviews</small>
+              <div class="stars">★★★★★</div>
+            </div>
+            <span class="review-card__date">3 years ago</span>
+          </div>
+          <p>"Lovely food with big portions, at a decent price, intelligent friendly staff."</p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__header">
+            <div class="review-card__avatar">R</div>
+            <div>
+              <strong>robert carney</strong>
+              <div class="stars">★★★★★</div>
+            </div>
+            <span class="review-card__date">5 years ago</span>
+          </div>
+          <p>"Lovely cafe, polite staff, good well presented food — what more could you ask for."</p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__header">
+            <div class="review-card__avatar">A</div>
+            <div>
+              <strong>Alfredy Mukuvare</strong>
+              <small>Local Guide · 354 reviews</small>
+              <div class="stars">★★★★★</div>
+            </div>
+            <span class="review-card__date">2 years ago</span>
+          </div>
+          <p>"It's a fantastic place for one to have a meal, an atmosphere conducive for one to relax and enjoy the served meal."</p>
+          <span class="review-card__tag">Breakfast · £10–20</span>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__header">
+            <div class="review-card__avatar">S</div>
+            <div>
+              <strong>shahir</strong>
+              <div class="stars">★★★★★</div>
+            </div>
+            <span class="review-card__date">4 years ago</span>
+          </div>
+          <p>"Great owner, very inviting, accepting, and kind."</p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__header">
+            <div class="review-card__avatar">O</div>
+            <div>
+              <strong>Oscar Naden</strong>
+              <div class="stars">★★★★★</div>
+            </div>
+            <span class="review-card__date">8 years ago</span>
+          </div>
+          <p>"Just went for breakfast. Lovely little café with sweet music. Staff was a lovely lady and very kind. Would highly recommend for a chill little breakfast/tea!"</p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__header">
+            <div class="review-card__avatar">A</div>
+            <div>
+              <strong>Adam Ibrahim</strong>
+              <div class="stars">★★★★★</div>
+            </div>
+            <span class="review-card__date">8 years ago</span>
+          </div>
+          <p>"Great food, nice friendly vibe with people of all cultures and backgrounds along with all ages!"</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / VISIT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact__grid">
+        <div class="contact__info">
+          <span class="label">Come See Us</span>
+          <h2>Visit Hardedge Café</h2>
+          <div class="contact__detail">
+            <div class="contact__icon">📍</div>
+            <div>
+              <strong>Address</strong>
+              <p>113 High Street<br />Penge, London SE20 7DT</p>
+            </div>
+          </div>
+          <div class="contact__detail">
+            <div class="contact__icon">📞</div>
+            <div>
+              <strong>Phone</strong>
+              <p><a href="tel:02086760646">020 8676 0646</a></p>
+            </div>
+          </div>
+          <div class="contact__detail">
+            <div class="contact__icon">🕐</div>
+            <div>
+              <strong>Opening Hours</strong>
+              <p>Open daily &nbsp;·&nbsp; Closes 5:30 pm</p>
+            </div>
+          </div>
+          <div class="contact__detail">
+            <div class="contact__icon">💷</div>
+            <div>
+              <strong>Price Range</strong>
+              <p>£10–20 per person</p>
+            </div>
+          </div>
+          <div class="contact__actions">
+            <a href="tel:02086760646" class="btn btn--primary">Call Now</a>
+            <a href="https://maps.google.com/?q=113+High+St,+London+SE20+7DT" target="_blank" rel="noopener" class="btn btn--outline">Get Directions</a>
+          </div>
+        </div>
+        <div class="contact__map">
+          <iframe
+            title="Hardedge Cafe map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2488.234!2d-0.057!3d51.4099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876026e6af1cc01%3A0xbe9a3f1e!2s113+High+St%2C+Penge%2C+London+SE20+7DT!5e0!3m2!1sen!2suk!4v1"
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="nav__logo">Hardedge Café</span>
+          <p>113 High Street, Penge, London SE20 7DT</p>
+        </div>
+        <div class="footer__links">
+          <a href="#about">About</a>
+          <a href="#menu">Menu</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#contact">Visit Us</a>
+        </div>
+        <div class="footer__rating">
+          <div class="stars">★★★★★</div>
+          <span>4.3 on Google</span>
+        </div>
+      </div>
+      <p class="footer__copy">© 2025 Hardedge Café. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
